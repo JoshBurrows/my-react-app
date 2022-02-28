@@ -1,15 +1,15 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Login from "./login";
-import SignUp from "./Signup";
+import Signup from "./Signup";
+import Header from "./header";
 
 function App() {
   return (
     <>
-      <div>Hello World</div>
+      <Header />
       <Login />
-      <SignUp />
+      <Signup />
     </>
   );
 }
